@@ -15,9 +15,39 @@
         }
         header {
             background-color: #FFA93F;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
+           .menu {
+    float: left;
+    margin-top: 10px;
+    width: 750px;
+}
+.menu li {
+    border-right: 1px solid #9B9A9A;
+    float: left;
+    list-style: none outside none;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+}
+
+.menu li:last-child {
+    border-right:none;
+}
+.menu li a {
+    color: #000000;
+    text-decoration: none;
+}
+.menu li a:hover {
+    color: #9B9A9A;
+    text-decoration: none;
+}
+.menu .current a {
+    color: #9B9A9A;
+    text-decoration: none;
+}
+.menu .current a:hover {
+    color: #000000;
+    text-decoration: none;
+}
         }
         nav {
             background-color: #333;
